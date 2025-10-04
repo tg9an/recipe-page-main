@@ -37,11 +37,12 @@ main {
 h2 {
 	color: var(--Brown800);
 	font-family: var(--header-font);
+	font-weight: 400;
 }
 .header-container h1 {
 	font-family: var(--header-font);
 	color: var(--Stone900);
-	font-weight: 600;
+	font-weight: 400;
 }
 .header-container p {
 	line-height: 1.75rem;
@@ -53,9 +54,10 @@ h2 {
 	border-radius: 1.25rem;
 }
 
-.prep-container h3 {
+.prep-container h2 {
 	color: var(--Rose800);
-	font-weight: 600;
+	font-weight: 400;
+	font-size: 1.5rem;
 }
 
 .prep-container ul li {
@@ -126,6 +128,10 @@ h2 {
 		border-radius: 0rem;
 	}
 
+	.header-container h1 {
+		font-size: 2rem;
+	}
+
 	img {
 		object-fit: contain;
 		display: block;
@@ -145,6 +151,10 @@ h2 {
 		max-width: 45rem;
 		padding: 2rem;
 		border-radius: 1.25rem;
+		margin: 5rem;
+	}
+	.header-container h1 {
+		font-size: 3rem;
 	}
 
 	img {
