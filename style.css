@@ -25,6 +25,12 @@ main {
 	gap: 1rem;
 }
 
+hr {
+	color: var(--Stone150);
+	border: none;
+	border-top: 0.1rem solid var(--Stone150);
+}
+
 .recipe-container {
 	display: flex;
 	flex-direction: column;
